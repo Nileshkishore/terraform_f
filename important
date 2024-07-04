@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/vanshik0027/terraformAssignmentMain.git'
+                git branch: 'main', url: 'https://github.com/<github_id>/terraformAssignmentMain.git'
             }
         }
         stage('Terraform init') {
